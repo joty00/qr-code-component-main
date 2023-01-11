@@ -1,0 +1,46 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.text {
+    text-align: center;
+    align-items: center;
+    padding: 0px 20px 20px 20px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.cart {
+    width: 325px;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.qr-code {
+    padding: 10px;
+    margin: 15px;
+    border-radius: 7px;
+    background-image: url('./images/image-qr-code.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+    width: 280px;
+}
